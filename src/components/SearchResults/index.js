@@ -3,7 +3,6 @@ import "./style.css";
 import CPTable from "../CPTable";
 
 function SearchResults(props) {
-  console.log(props.users);
   return (
     <ul className="list-group search-results">
       <li className="list-group-item">

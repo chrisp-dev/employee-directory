@@ -1,9 +1,13 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { shallow, mount } from 'enzyme';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it('renders without breaking', () => {
+  shallow(<App />);
+});
+
+test('renders Search Header', () => {
+  const wrapper = mount(<App />);
+  const welcome = <h1 className="jumbotron text-center">Search User Directory</h1>;
+  expect(wrapper).toContainReact(welcome);
 });
