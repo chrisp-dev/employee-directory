@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import CPTable from "../CPTable";
 
 function SearchResults(props) {
   console.log(props.users);
@@ -8,9 +9,7 @@ function SearchResults(props) {
       <li className="list-group-item">
         <h2>{props.title}</h2>
         <p>{props.description}</p>
-        {props.users.map(user => {
-          return <div key={user.login.uuid} className="card">{user.name.first} {user.name.last}</div>;
-        })}
+        <CPTable users={props.users} />
       </li>
     </ul>
   );
