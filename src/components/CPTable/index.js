@@ -4,11 +4,11 @@ import Container from '../Container';
 import Row from '../Row';
 import {
     useTable,
-    useGroupBy,
-    useFilters,
+    // useGroupBy,
+    // useFilters,
     useSortBy,
-    useExpanded,
-    usePagination
+    // useExpanded,
+    // usePagination
 } from 'react-table';
 
 export default function CPTable({ users }) {

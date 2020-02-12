@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import API from '../utils/API';
 import Wrapper from '../components/Wrapper';
-import Container from '../components/Container';
-import Row from '../components/Row';
+// import Container from '../components/Container';
+// import Row from '../components/Row';
 import SearchForm from '../components/SearchForm';
 import SearchResults from '../components/SearchResults';
 
 function Directory() {
     const [users, setUsers] = useState([]);
-    const [userSort, setUserSort] = useState({});
+    // const [userSort, setUserSort] = useState({});
     const [search, setSearch] = useState("");
 
     useEffect(() => {
