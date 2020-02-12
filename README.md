@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Build Status](https://travis-ci.org/chrisp-dev/employee-directory.svg?branch=development)](https://travis-ci.org/chrisp-dev/employee-directory)
 
 ## Available Scripts
 
