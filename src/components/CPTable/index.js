@@ -58,7 +58,7 @@ export default function CPTable({ users }) {
 
 const Styles = styled.div`
   padding: 1rem;
-  width: 100vw;
+  
   table {
     border-spacing: 0;
     border: 1px solid black;

@@ -19,7 +19,7 @@ function Directory() {
     }, []);
 
     const handleInputChange = event => {
-        setSearch({ ...search, search: event.target.value });
+        setSearch(event.target.value);
     };
     return (
         <Wrapper>
